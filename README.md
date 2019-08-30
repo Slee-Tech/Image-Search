@@ -1,3 +1,16 @@
+An image search app built with React.
+
+It utilizes the Pixabay API, so in order to run locally, you will need to sign up for an API key here https://pixabay.com/api/docs/  
+
+The API key should be stored in a .env file in the root directory of the project and contain the following:
+```
+REACT_APP_API_KEY= '_your api key here_'
+```
+In the search component, the environment variable is used follows:
+```
+apiKey: process.env.REACT_APP_API_KEY,
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
